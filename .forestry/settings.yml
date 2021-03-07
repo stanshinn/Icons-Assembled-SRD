@@ -4,6 +4,26 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: docs
+  label: The Basics
+  match: "**/*"
+- type: document
+  path: docs
+  label: Hero Creation
+  match: "**/*"
+- type: document
+  path: docs
+  label: Powers
+  match: "**/*"
+- type: document
+  path: docs
+  label: Taking Action
+  match: "**/*"
+- type: document
+  path: docs
+  label: Gamemastering
+  match: "**/*"
 - type: directory
   path: docs
   label: Docs
